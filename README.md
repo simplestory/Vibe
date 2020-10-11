@@ -1,6 +1,6 @@
 ## Vibe C++ Backend
 
-[中文版](https://github.com/simplestory/Vibe/README_CN.md)
+[中文版](README_CN.md)
 
 Vibe is a traditional pixel-level background modeling algorithm. It was published as the IEEE in 2009 and it is very suitable for embedded device because of its low memory usage and low computational complexity. After referring to various open source codes, it was found that the execution efficiency of python code was too low. In order to interface with the algorithm used in the project, I implemented the Vibe in C++ and generated the library files by pybind11 that can be directly called by python. Actually, the author of the paper has open sourced the relevant C++ code and has several optimizations in its implementation.
 
@@ -73,7 +73,7 @@ See the `test.py` for details.
 
 The actual effect is as follows：
 
-![res.gif](https://raw.githubusercontent.com/simplestory/Vibe/master/gifs/test.gif)
+![res.gif](https://raw.githubusercontent.com/simplestory/Vibe/main/gifs/test.gif)
 
 As shown above, the algorithm cannot eliminate ghost images well. The approximate running time of the algorithm is 120ms per frame. The optimization method mentioned in the author's implementation is not used here, so there is still a lot of room for optimization.
 
