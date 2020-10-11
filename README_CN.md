@@ -65,7 +65,7 @@ vibe.Vibe(numpy.array())  # 输入三维数组，使用RGB图像运算Vibe算法
 
 实际效果如下：
 
-![res.gif](https://raw.githubusercontent.com/simplestory/Vibe_C++_Backend/master/gifs/test.gif)
+![res.gif](https://raw.githubusercontent.com/simplestory/Vibe/master/gifs/test.gif)
 
 从上面效果看，该算法并不能很好地消除鬼影，这部分需要再进行调整。算法大致运行时间为每帧120ms，这里并没有使用作者实现中提到的优化方法，还有较大的优化空间。
 

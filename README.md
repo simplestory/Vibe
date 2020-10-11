@@ -73,7 +73,7 @@ See the `test.py` for details.
 
 The actual effect is as follows：
 
-![res.gif](https://raw.githubusercontent.com/simplestory/Vibe_C++_Backend/master/gifs/test.gif)
+![res.gif](https://raw.githubusercontent.com/simplestory/Vibe/master/gifs/test.gif)
 
 As shown above, the algorithm cannot eliminate ghost images well. The approximate running time of the algorithm is 120ms per frame. The optimization method mentioned in the author's implementation is not used here, so there is still a lot of room for optimization.
 
